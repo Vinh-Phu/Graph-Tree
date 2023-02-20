@@ -1,8 +1,5 @@
 /*
-* MSSV : 19110413
-* Ho va Ten : Vong Vinh Phu
-* Assignment : Assignment 2 - Connected Components
-* Created at : 05/12/2021
+* Connected Components
 * IDE : Visual studio 2019
 */
 #include <fstream>
