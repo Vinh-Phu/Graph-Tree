@@ -168,7 +168,7 @@ void dijkstra()
                 dist[v] = dist[u] + graph[u][v];
             }
     }
-    std::ofstream Output("ket_qua_bai_3_19110413.txt");
+    std::ofstream Output("output.txt");
     if (dist[end] == inf)
     {
         Output << "Khong co duong di ngan nhat";
@@ -180,7 +180,7 @@ void dijkstra()
         Output << "Duong di ngan nhat cua do thi la: ";
         printPath(Output, end);
         Output.close();
-        std::ifstream fileIn("ket_qua_bai_3_19110413.txt");                   
+        std::ifstream fileIn("output.txt");                   
 
         std::stringstream buffer;                             
         buffer << fileIn.rdbuf();
@@ -191,7 +191,7 @@ void dijkstra()
         contents.pop_back();
         contents.pop_back();                                  
 
-        std::ofstream fileOut("ket_qua_bai_3_19110413.txt", std::ios::trunc); 
+        std::ofstream fileOut("output.txt", std::ios::trunc); 
         fileOut << contents;                                  
         fileOut.close();
     }
