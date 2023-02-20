@@ -1,8 +1,5 @@
 /*
-* MSSV : 19110413
-* Ho va Ten : Vong Vinh Phu
-* Assignment : Assignment 3 - Shortest-Path Problems
-* Created at : 26/12/2021
+* Shortest-Path Problems
 * IDE : Visual studio 2019
 */
 #include <fstream>
